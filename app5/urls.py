@@ -2,6 +2,6 @@ from django.urls import path
 from .views import *
 
 
-patterns = [
+urlpatterns = [
     path('app5/', app5)
 ]
